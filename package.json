@@ -1,0 +1,23 @@
+{
+  "name": "web-search-reranker",
+  "version": "1.0.0",
+  "description": "Modular Web Search + Reranker subsystem",
+  "main": "webSearchPipeline.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@langchain/textsplitters": "^1.0.1",
+    "@xenova/transformers": "^2.17.2",
+    "dotenv": "^16.0.0",
+    "json5": "^2.2.3",
+    "langchain": "^1.2.30"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
+}
